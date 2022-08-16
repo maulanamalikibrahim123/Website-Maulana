@@ -4,13 +4,12 @@
 .navbar-brand {
     font: 32px Viga;
 }
-
-
 /* Jumbotron */
 .jumbotron {
-    background: url(../img/jumbotron-bg.jpg);
+    background: url(../img/1.jpg);
     background-size: cover;
-    height: 540px;
+    background-position: top 65% right 0;
+    height: 800px;
     position: relative;
     z-index: -1;
 }
@@ -55,15 +54,21 @@
     box-shadow: 0 3px 20px rgba(0, 0, 0, 0.6);
 }
 
+.foto{
+    border: 2px solid black;
+}
+
 .info-panel h4 {
     font-size: 16px;
     font-weight: bold;
     margin-top: 20px;
+    margin-left: 80px;
     text-transform: uppercase;
 }
 
 .info-panel p {
     font-size: 14px;
+    margin-left: 80px;
     font-weight: lighter;
     color: #acacac;
 }
